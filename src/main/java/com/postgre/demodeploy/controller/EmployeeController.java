@@ -72,7 +72,7 @@ public class EmployeeController {
 
     @GetMapping("/")
     public String Halo()
-            throws ResourceNotFoundException {
+    {
 
         return "Welcome Back";
     }
